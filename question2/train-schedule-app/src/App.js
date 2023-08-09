@@ -12,7 +12,7 @@ function App() {
 
   const fetchTrains = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/train/trains`, {
+      const response = await fetch(`${http://20.244.56.144/train/register}/train/trains`, {
         headers: {
           Authorization: 'Bearer YOUR_ACCESS_TOKEN', // Replace with your actual access token
         },
