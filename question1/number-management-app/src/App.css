@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.url-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.url-input-container input {
+  flex-grow: 1;
+  padding: 10px;
+}
+.button-primary {
+  align-self: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:45%;
+  margin-bottom: 4%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: #3b8b43;
+}

@@ -1,0 +1,29 @@
+/* src/UrlInput.css */
+
+.url-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.url-input-container input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin:3%
+}
+
+.url-input-container button {
+  padding: 10px 20px;
+  background-color: #0975e9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.url-input-container button:hover {
+  background-color: #406456;
+}
